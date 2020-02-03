@@ -1,0 +1,16 @@
+.column(){
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-btn(@bg-color:@btn-bg-color, @width:25%, @height:10%, @font-color:white){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: @bg-color;
+    border-radius: 5px;
+    width: @width;
+    height: @height;
+    font-size: 1.5rem;
+    color:@font-color;
+}

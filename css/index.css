@@ -134,14 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Russo One', sans-serif;
+  height: 100%;
 }
 h1 {
   font-size: 3.2rem;
@@ -159,4 +152,43 @@ p {
 a {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+li {
+  font-size: 1.6rem;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  background-image: url(/img/familyWalking.jpg);
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cta nav {
+  display: flex;
+  justify-content: space-between;
+}
+.cta nav .navBar {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.cta nav a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.cta .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.cta .hero-text h2 {
+  font-size: 8rem;
+  padding-bottom: 3%;
 }
