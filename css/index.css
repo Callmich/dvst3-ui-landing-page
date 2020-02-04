@@ -332,6 +332,11 @@ footer {
     width: 100%;
   }
 }
+@media ( max-width: 500px ) {
+  .aboutUs {
+    margin-top: 3%;
+  }
+}
 .aboutUs .statement {
   width: 50%;
 }
@@ -376,5 +381,13 @@ footer {
 @media ( max-width: 800px ) {
   .picture .picLine img {
     width: 50%;
+  }
+}
+.picture .picText {
+  margin-left: 4%;
+}
+@media ( max-width: 500px ) {
+  .picture .picText {
+    margin-top: 4%;
   }
 }
