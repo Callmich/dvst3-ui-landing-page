@@ -34,6 +34,14 @@
     align-items: center;
     padding: 10% 0;
 
+    .benies{
+        text-align: center;
+    }
+
+    i{
+        font-size: 4rem;
+    }
+
     @media @phone{
         display: flex;
         flex-direction: column;
@@ -46,12 +54,43 @@
     justify-content: center;
     background-color: silver;
     padding: 2% 0;
+
+    @media @tablet{
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+
+    @media @phone{
+        h2{
+            font-size: 2rem;
+        }
+        
+    }
+
 }
 
 .calcItems{
     display: flex;
     justify-content: space-evenly;
     padding: 2% 0;
+    text-align: center;
+
+    @media @tablet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding-top: 2% 0;
+    }
+
+    .typesOfCost{
+
+        @media @tablet{
+            padding: 2% 0;
+        }
+    }
 }
 
 .cta2{

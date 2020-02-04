@@ -240,6 +240,12 @@ footer {
   align-items: center;
   padding: 10% 0;
 }
+.usefulness .benies {
+  text-align: center;
+}
+.usefulness i {
+  font-size: 4rem;
+}
 @media ( max-width: 500px ) {
   .usefulness {
     display: flex;
@@ -252,10 +258,36 @@ footer {
   background-color: silver;
   padding: 2% 0;
 }
+@media ( max-width: 800px ) {
+  .quotes h2 {
+    font-size: 2.5rem;
+  }
+}
+@media ( max-width: 500px ) {
+  .quotes h2 {
+    font-size: 2rem;
+  }
+}
 .calcItems {
   display: flex;
   justify-content: space-evenly;
   padding: 2% 0;
+  text-align: center;
+}
+@media ( max-width: 800px ) {
+  .calcItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 2% 0;
+  }
+}
+@media ( max-width: 800px ) {
+  .calcItems .typesOfCost {
+    padding: 2% 0;
+  }
 }
 .cta2 {
   display: flex;
