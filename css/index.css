@@ -246,6 +246,18 @@ footer {
 }
 .usefulness .benies {
   text-align: center;
+  width: 30%;
+}
+@media ( max-width: 800px ) {
+  .usefulness .benies {
+    width: 25%;
+  }
+}
+@media ( max-width: 500px ) {
+  .usefulness .benies {
+    width: 80%;
+    margin: 4% 0;
+  }
 }
 .usefulness i {
   font-size: 4rem;
@@ -264,12 +276,12 @@ footer {
 }
 @media ( max-width: 800px ) {
   .quotes h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 @media ( max-width: 500px ) {
   .quotes h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .calcItems {
@@ -292,6 +304,12 @@ footer {
   .calcItems .typesOfCost {
     padding: 2% 0;
   }
+}
+.calcItems ul {
+  padding-top: 5%;
+}
+.calcItems ul li {
+  padding: 2% 0;
 }
 .cta2 {
   display: flex;

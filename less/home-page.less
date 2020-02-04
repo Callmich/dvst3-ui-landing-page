@@ -36,6 +36,16 @@
 
     .benies{
         text-align: center;
+        width: 30%;
+
+        @media @tablet{
+            width: 25%;
+        }
+
+        @media @phone{
+            width: 80%;
+            margin: 4% 0;
+        }
     }
 
     i{
@@ -57,13 +67,13 @@
 
     @media @tablet{
         h2{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
     }
 
     @media @phone{
         h2{
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
         
     }
@@ -88,6 +98,14 @@
     .typesOfCost{
 
         @media @tablet{
+            padding: 2% 0;
+        }
+    }
+
+    ul{
+        padding-top: 5%;
+
+        li{
             padding: 2% 0;
         }
     }
