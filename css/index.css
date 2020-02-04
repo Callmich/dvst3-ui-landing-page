@@ -136,6 +136,13 @@ html,
 body {
   height: 100%;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgba(26, 26, 26, 0.9);
+}
 h1 {
   font-size: 3.2rem;
 }
@@ -148,6 +155,7 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  color: rgba(26, 26, 26, 0.9);
 }
 a {
   font-size: 1.6rem;
@@ -159,6 +167,7 @@ li {
 footer {
   bottom: 0;
   width: 100%;
+  color: rgba(26, 26, 26, 0.9);
 }
 nav {
   overflow: hidden;
@@ -235,7 +244,6 @@ footer {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: red;
 }
 @media ( max-width: 800px ) {
   .hero-text {
@@ -275,9 +283,13 @@ footer {
   align-items: center;
   background-color: #73cec5;
   width: 25%;
-  height: 10%;
   font-size: 1.5rem;
   color: white;
+}
+@media ( max-width: 800px ) {
+  .hero-text button {
+    width: 40%;
+  }
 }
 .usefulness {
   height: 40%;
@@ -288,14 +300,9 @@ footer {
 }
 .usefulness .benies {
   text-align: center;
-  width: 30%;
+  width: 25%;
 }
 @media ( max-width: 800px ) {
-  .usefulness .benies {
-    width: 25%;
-  }
-}
-@media ( max-width: 500px ) {
   .usefulness .benies {
     width: 80%;
     margin: 4% 0;
@@ -304,7 +311,7 @@ footer {
 .usefulness i {
   font-size: 4rem;
 }
-@media ( max-width: 500px ) {
+@media ( max-width: 800px ) {
   .usefulness {
     display: flex;
     flex-direction: column;
@@ -313,7 +320,7 @@ footer {
 .quotes {
   display: flex;
   justify-content: center;
-  background-color: silver;
+  background-color: #f2bacc;
   padding: 2% 0;
 }
 @media ( max-width: 800px ) {
@@ -331,8 +338,9 @@ footer {
   justify-content: space-evenly;
   padding: 2% 0;
   text-align: center;
+  margin: 5% 0;
 }
-@media ( max-width: 800px ) {
+@media ( max-width: 500px ) {
   .calcItems {
     display: flex;
     flex-direction: column;
@@ -342,7 +350,7 @@ footer {
     padding-top: 2% 0;
   }
 }
-@media ( max-width: 800px ) {
+@media ( max-width: 500px ) {
   .calcItems .typesOfCost {
     padding: 2% 0;
   }
@@ -368,9 +376,13 @@ footer {
   align-items: center;
   background-color: #73cec5;
   width: 10%;
-  height: 10%;
   font-size: 1.5rem;
   color: white;
+}
+@media ( max-width: 800px ) {
+  .cta2 button {
+    width: 30%;
+  }
 }
 .screenSplit {
   margin-top: 7%;
@@ -447,16 +459,16 @@ footer {
     flex-direction: column;
   }
 }
-.picture .picLine img {
-  width: 20%;
+.picture .picLine a img {
+  width: 30%;
 }
 @media ( max-width: 800px ) {
-  .picture .picLine img {
+  .picture .picLine a img {
     width: 50%;
   }
 }
 .picture .picText {
-  margin-left: 4%;
+  margin-left: 1%;
 }
 @media ( max-width: 500px ) {
   .picture .picText {
