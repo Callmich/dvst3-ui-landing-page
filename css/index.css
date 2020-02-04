@@ -196,6 +196,7 @@ nav .navBar {
 nav a {
   text-decoration: none;
   font-size: 2rem;
+  color: #73cec5;
 }
 @media ( max-width: 800px ) {
   nav a {
@@ -206,6 +207,9 @@ nav a {
   nav a {
     font-size: 1.2rem;
   }
+}
+nav a:hover {
+  color: #f2bacc;
 }
 footer {
   display: flex;
@@ -265,6 +269,15 @@ footer {
   .hero-text h3 {
     font-size: 2rem;
   }
+}
+.hero-text button {
+  justify-content: center;
+  align-items: center;
+  background-color: #73cec5;
+  width: 25%;
+  height: 10%;
+  font-size: 1.5rem;
+  color: white;
 }
 .usefulness {
   height: 40%;
@@ -349,6 +362,15 @@ footer {
 }
 .cta2 h2 {
   margin: 2% 0;
+}
+.cta2 button {
+  justify-content: center;
+  align-items: center;
+  background-color: #73cec5;
+  width: 10%;
+  height: 10%;
+  font-size: 1.5rem;
+  color: white;
 }
 .screenSplit {
   margin-top: 7%;

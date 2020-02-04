@@ -30,13 +30,13 @@ nav {
     .navBar{
         width: 30%;
         display: flex;
-        justify-content: space-around
+        justify-content: space-around;
     }
 
     a{
         text-decoration: none;
         font-size: 2rem;
-
+        color: @nav-color;
         
         @media @tablet{
             font-size: 1.2rem;
@@ -46,6 +46,10 @@ nav {
             font-size: 1.2rem;
         }
     }
+    a:hover{
+        color: @nav-hv-color;
+    }
+
 }
 
 
