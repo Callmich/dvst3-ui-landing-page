@@ -737,7 +737,7 @@ footer {
 }
 @media ( max-width: 475px ) {
   .picture {
-    margin-top: 180%;
+    margin-top: 10%;
   }
 }
 .picture .picLine {
