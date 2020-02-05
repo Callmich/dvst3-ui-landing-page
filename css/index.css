@@ -433,7 +433,8 @@ footer {
 }
 @media ( max-width: 475px ) {
   .aboutUs {
-    margin-bottom: 30%;
+    margin-top: 30%;
+    margin-bottom: 20%;
   }
 }
 .aboutUs .statement {
