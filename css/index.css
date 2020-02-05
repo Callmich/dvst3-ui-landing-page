@@ -455,6 +455,11 @@ footer {
     width: 100%;
   }
 }
+@media ( max-width: 475px ) {
+  .picture {
+    margin-top: 30%;
+  }
+}
 .picture .picLine {
   display: flex;
   align-items: center;
