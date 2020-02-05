@@ -135,6 +135,7 @@ html {
 html,
 body {
   height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 h1,
 h2,
@@ -206,6 +207,7 @@ nav a {
   text-decoration: none;
   font-size: 2rem;
   color: #73cec5;
+  font-family: 'Roboto', sans-serif;
 }
 @media ( max-width: 800px ) {
   nav a {
