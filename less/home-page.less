@@ -53,18 +53,26 @@
             @media @phone{
                 font-size: 2rem;
             }
-    }
+        }
 
-    button{
-        .custom-btn();
-        padding: 2% 4%;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        button{
+            .custom-btn();
+            padding: 2% 4%;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
-        @media @tablet{
-            width:40%;
+            @media @tablet{
+                width:40%;
+            }
+            @media @phone{
+                width: 50%;
+            }
+
+            @media @smallerPhone{
+                width: 60%;
+            }
+
         }
     }
-        }
 
 
     .usefulness{

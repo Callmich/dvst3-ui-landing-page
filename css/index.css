@@ -574,6 +574,16 @@ footer {
     width: 40%;
   }
 }
+@media ( max-width: 500px ) {
+  .hero-text button {
+    width: 50%;
+  }
+}
+@media ( max-width: 475px ) {
+  .hero-text button {
+    width: 60%;
+  }
+}
 .usefulness {
   height: 40%;
   display: flex;
