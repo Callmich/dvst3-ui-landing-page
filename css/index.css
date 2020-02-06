@@ -601,6 +601,9 @@ footer {
     margin: 4% 0;
   }
 }
+.usefulness .benies h3 {
+  margin: 4% 0;
+}
 .usefulness i {
   font-size: 4rem;
 }
